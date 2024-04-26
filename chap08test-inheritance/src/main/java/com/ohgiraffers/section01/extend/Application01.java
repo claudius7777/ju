@@ -1,5 +1,7 @@
 package main.java.com.ohgiraffers.section01.extend;
 
+import com.ohgiraffers.section01.extend.FireCar;
+
 public class Application01
 {
 
@@ -56,6 +58,29 @@ public class Application01
         Car car = new Car();
         car.soundHorn();
         car.run();
+        car.soundHorn();
+        car.stop();
+        car.soundHorn();
+
+
+        System.out.println("================");
+        FireCar fireCar = new FireCar();
+        fireCar.soundHorn();
+        fireCar.run();
+        fireCar.soundHorn();
+        fireCar.stop();
+        fireCar.soundHorn();
+        fireCar.sprayWarter();
+
+        System.out.println("---------");
+        RacingCar racingCar = new RacingCar();
+        racingCar.soundHorn();
+        racingCar.run();
+        racingCar.stop();
+        racingCar.soundHorn();
+
+
+
 
     }
 }
